@@ -1,0 +1,68 @@
+{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #e6e6e6;
+}
+header, .main,footer {
+	background: #fff;
+	width: 90%;
+	max-width: 1130px;
+	margin: auto;
+}
+header nav{
+	background: #528FD5;
+	overflow: hidden;
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li {
+	float: left;
+}
+header nav ul li a {
+	padding: 10px 20 px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+header nav ul li a:hover {
+	background: #75ACEC;
+}
+
+.main .articles {
+	width: 68.5%;
+	float: left;
+	background: #fff;
+	margin-right: 1.5%;
+}
+.main .articles article {
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 20px;
+}
+ aside {
+	width: 30%;
+	background: #ff8000;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+iframe {
+	width: auto;%;
+
+
+
+}
+
+footer {
+	clear: both;
+	color: #fff;
+	background: #000;
+	padding: 10px 0px;
+	text-align: center;
+
+
+}
